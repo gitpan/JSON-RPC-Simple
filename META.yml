@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               JSON-RPC-Simple
-version:            0.02
+version:            0.03
 abstract:           Simple JSON-RPC client and dispatcher (WD 1.1 subset only currently)
 author:
     - Claes Jakobsson <claesjac@cpan.org>

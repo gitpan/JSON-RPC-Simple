@@ -7,7 +7,7 @@ use warnings;
 use Scalar::Util qw(blessed refaddr);
 use Carp qw(croak);
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 our $ClientClass = "JSON::RPC::Simple::Client";
 sub connect {
