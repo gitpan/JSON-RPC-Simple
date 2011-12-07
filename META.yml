@@ -1,25 +1,28 @@
---- #YAML:1.0
-name:               JSON-RPC-Simple
-version:            0.03
-abstract:           Simple JSON-RPC client and dispatcher (WD 1.1 subset only currently)
+---
+abstract: 'Simple JSON-RPC client and dispatcher (WD 1.1 subset only currently)'
 author:
-    - Claes Jakobsson <claesjac@cpan.org>
-license:            perl
-distribution_type:  module
+  - 'Claes Jakobsson <claesjac@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 0
 configure_requires:
-    ExtUtils::MakeMaker:  0
-requires:
-    HTTP::Request:    0
-    HTTP::Response:   0
-    JSON:             0
-    LWP::UserAgent:   0
-    Scalar::Util:     0
-    Test::Exception:  0
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.48
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.112150'
+license: perl
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: JSON-RPC-Simple
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  HTTP::Request: 0
+  HTTP::Response: 0
+  JSON: 0
+  LWP::UserAgent: 0
+  Scalar::Util: 0
+  Test::Exception: 0
+  URI::Escape: 1.31
+version: 0.04
