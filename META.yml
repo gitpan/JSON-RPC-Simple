@@ -25,4 +25,4 @@ requires:
   Scalar::Util: 0
   Test::Exception: 0
   URI::Escape: 1.31
-version: 0.04
+version: 0.05
